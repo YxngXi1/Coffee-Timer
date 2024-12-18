@@ -1,5 +1,3 @@
-# README.md
-
 # ☕ Coffee Kick Tracker
 
 Welcome to **Coffee Kick Tracker**! This is a web application that helps you understand how your caffeine intake affects you over time. Whether you're curious about when your coffee will kick in, when its effects will peak, or when you'll be completely caffeine-free, this tool has you covered.
