@@ -20,19 +20,19 @@ export default function Home() {
   };
 
   return (
-    <section className="m-8 h-[90vh] border flex flex-col justify-center items-center">
+    <section className="m-8 h-[90vh] flex flex-col justify-center items-center">
       <div className="w-full text-center">
         <h1 className="text-5xl font-bold">Coffee Timer</h1>
         <p className='text-md my-2'>When will your coffee taper off, hit its peak, and leave your system?</p>
       </div>
-      <form onSubmit={handleSubmit} className="mt-4 flex flex-col md:flex-row border justify-evenly items-center h-96 md:w-5/12">
+      <form onSubmit={handleSubmit} className="mt-4 flex flex-col md:flex-row  justify-evenly items-center h-96 md:w-5/12">
         <input 
           type="time" 
           value={time} 
           onChange={(e) => setTime(e.target.value)} 
           className="w-[324px] h-[56px] border border-black bg-white text-black text-center rounded-md" 
         />
-        <button type="submit" className="w-[172px] h-[56px] border rounded-2xl border border-black bg-white text-black">Submit</button>
+        <button type="submit" className="w-[172px] h-[56px] rounded-2xl border border-black bg-white text-black">Submit</button>
       </form>
       
       <div className="h-full flex justify-center items-center">
